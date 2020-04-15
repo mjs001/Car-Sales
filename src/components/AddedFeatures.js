@@ -2,6 +2,7 @@ import React from "react";
 
 import AddedFeature from "./AddedFeature";
 import { connect } from "react-redux";
+//e. refers removeFeature which refers back to the carStateActions
 const AddedFeatures = ({ car, removeFeature }) => {
   return (
     <div className="content">

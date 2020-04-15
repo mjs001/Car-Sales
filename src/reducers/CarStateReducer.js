@@ -14,7 +14,7 @@ export const initialState = {
     { id: 4, name: "Rear spoiler", price: 250 },
   ],
 };
-
+//h. finally the reducers are run and change state accordingly
 export function CarStateReducer(state = initialState, action) {
   console.log(state, action);
   switch (action.type) {

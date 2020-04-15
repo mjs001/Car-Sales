@@ -1,6 +1,6 @@
 import React from "react";
 import AdditionalFeature from "./AdditionalFeature";
-
+//g. buyItem refers to the carStateActions
 const AdditionalFeatures = (props) => {
   return (
     <div className="content">
